@@ -16,7 +16,7 @@
                         <h3>Create Blog</h3>
                     </div>
                     <div class="card-body">
-                        <form action="" method="">
+                        <form action="{{ route('Blog.store') }}" method="post">
                             @csrf
                             <div class="mb-3">
                                 <label for="title" class="form-label">Title</label>
